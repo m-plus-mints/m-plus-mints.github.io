@@ -38,5 +38,7 @@ img {
 }
 
 .project-logo {
-    max-width: 100px;
+    max-width: 10px;
+    display: block;
+    margin: 15px auto;
 }
