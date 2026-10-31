@@ -1,0 +1,38 @@
+/* Apply Fira Sans to all general text */
+body, p, li, a, span {
+    font-family: 'Fira Sans', sans-serif;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+/* Apply Roboto Slab to all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', serif;
+    /* Check id.unige.it for the exact hex code of the official Unige Blue */
+    color: #00234c; 
+}
+
+/* SVG Selectors (Replacing inline styles) */
+.sample-chart {
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    display: block;
+    margin-top: 15px;
+}
+
+.chart-element {
+    /* Check id.unige.it for the exact hex code of the official Unige Red */
+    fill: #cc0000; 
+    stroke: #00234c;
+    stroke-width: 4px;
+}
+
+/* Ensure images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
