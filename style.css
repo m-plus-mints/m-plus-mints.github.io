@@ -36,3 +36,7 @@ img {
     height: auto;
     margin-top: 15px;
 }
+
+.project-logo {
+    max-width: 100px;
+}
